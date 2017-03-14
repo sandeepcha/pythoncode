@@ -54,7 +54,33 @@
 	
 	# print(guess != number)
 
-count = 0
-while (count < 6):
-	print ('You are on team', count)
-	count = count + 1
+# count = 0
+# while (count < 6):
+# 	print ('You are on team', count)
+# 	count = count + 1
+
+# for i in range (10):
+# 	print(i)
+
+# sum for all the numbers from 1-10
+# sum = 0
+# for i in range (11):
+# 	# sum = sum + i (same as below equation)
+# 	sum += i
+# 	# this prints ALL of the answers in the range
+	# print(sum) 
+# print(sum) - this prints JUST the final answer
+
+# below is a list
+# sum = 0
+# a = [1, 2, 5, 6]
+# for x in a:
+# 	sum += x
+# print(sum)
+
+import sys
+print(sys.argv)
+x = int(sys.argv[1])
+
+for i in range(x):
+	print(i)
