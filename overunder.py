@@ -33,28 +33,25 @@
 
 # print ("Good bye!")
 
-import random
+# import random
 
-number = random.randint(1,100)
-guess = -1
+# number = random.randint(1,100)
+# guess = -1
 
-while guess != number:
-	guess = input('Guess a Number')
-	guess = int(guess)
+# while guess != number:
+# 	guess = input('Guess a Number')
+# 	guess = int(guess)
 
-	if guess < number:
-		print('This is too low.')
-		print('Try again.')
-	elif guess == number:
-		print('Congratulations, you win.')
-		print('Click here to get your prize')
-	else:
-		print('THis is too high.')
-		print('Try again.')
+# 	if guess < number:
+# 		print('This is too low.')
+# 		print('Try again.')
+# 	elif guess == number:
+# 		print('Congratulations, you win.')
+# 		print('Click here to get your prize')
+# 	else:
+# 		print('THis is too high.')
+# 		print('Try again.')
 	
 	# print(guess != number)
 
-# count = 0
-# while count < guess:
-# 	print('Number is too low', count)
-# 	count = count + 1
+
