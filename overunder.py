@@ -68,7 +68,7 @@
 # 	# sum = sum + i (same as below equation)
 # 	sum += i
 # 	# this prints ALL of the answers in the range
-	# print(sum) 
+# 	print(sum) 
 # print(sum) - this prints JUST the final answer
 
 # below is a list
@@ -76,11 +76,35 @@
 # a = [1, 2, 5, 6]
 # for x in a:
 # 	sum += x
-# print(sum)
+# 	print(sum)
 
-import sys
-print(sys.argv)
-x = int(sys.argv[1])
+# import sys
+# print(sys.argv)
+# x = int(sys.argv[1])
 
-for i in range(x):
-	print(i)
+# for i in range(x):
+# 	print(i)
+
+# for x in range(8):
+# 	row = ""
+# 	for y in range (8):
+# 		if (x + y) % 2 == 0:
+# 			row += "*"
+# 		else:
+# 			row += "-"
+# 		row += ' '
+# 	print(row)
+
+# name = input("What's your name? ")
+# # print ("Hello,", name)
+# age = input("How old are you? ")
+# # print (name, "is", age, "years old.")
+# test = "{0} is {1} years old.".format(name, age)
+# # string formatting is above
+# print (test)
+
+sum = 0
+x = [3, 6, 1, 7, 9, 2]
+for i in x:
+	sum += i
+print (sum)
